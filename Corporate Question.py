@@ -50,3 +50,11 @@ else:
             total_sum += i * i
 
     print(total_sum)
+
+ #factorial
+n=int(input("enter A Value"))
+sum=1
+for i in range(1,n+1):
+    sum*=i
+print(sum)
+
