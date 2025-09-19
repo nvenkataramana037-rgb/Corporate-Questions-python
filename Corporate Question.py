@@ -1,4 +1,4 @@
-'''
+
 #Sum of all cubes from n-m
 m = int(input("enter starting value"))
 n = int(input("enter ending value"))
@@ -36,7 +36,7 @@ else:
         if (i%2==0):
             total_sum += i * i
     print(total_sum)
-    '''
+    
 #product of all odd num from n-m
 m = int(input("enter starting value"))
 n = int(input("enter ending value"))
@@ -48,4 +48,5 @@ else:
     for i in range(m, n +1):
         if (i%2!=0):
             total_sum += i * i
+
     print(total_sum)
